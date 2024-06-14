@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import MainPage from './components/MainPage/MainPage';
@@ -11,7 +11,7 @@ import SearchPage from './components/SearchPage/SearchPage';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   return (
         <>
         <Navbar/>
